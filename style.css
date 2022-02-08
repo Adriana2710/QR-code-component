@@ -1,0 +1,57 @@
+/* General Content Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.content {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 100%;
+    padding: 14px;
+    border-radius: 18px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+/* Main Content Styles */
+
+.qr-code-image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2, p {
+    padding: 0 14px;
+}
+
+h2 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+   color: hsl(220, 15%, 55%);
+   margin-bottom: 30px;
+}
+
+/* WebQuery */
+
+@media  screen and (max-width: 375px) {
+
+    .content {
+        width: 89%;
+        margin: 140px auto;
+    }
+}
